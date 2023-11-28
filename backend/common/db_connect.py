@@ -31,6 +31,8 @@ class DBConnect():
         self.cur.close()
         self.conn.close()
         return 'OK'
+    
+
 
 
 if __name__ == "__main__":
